@@ -37,12 +37,16 @@ body{
     font-weight: 700;
 }
 
-@media screen and (max-width:300px){
+@media screen and (max-width:400px){
     .clock{
         max-width: 200px;
+        height: 15vh;
         padding: 5px;
     }
     .clock h1{
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+    .clock span{
+        font-size: 1rem;
     }
 }
